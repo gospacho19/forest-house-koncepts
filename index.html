@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="lv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Forest house — māja ar karsto kubli priežu mežā, Jūrmalā</title>
+<meta name="description" content="Maza, silta koka māja ar kamīnu, terasi un karsto kubli dārzā. Rubeņu iela 49, Jūrmala, 1,8 km līdz jūrai. Pieprasiet datumus pa tālruni 26 511 135.">
+<meta name="theme-color" content="#1c2721">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --pine:#1c2721; --night:#121915; --cream:#f2ede3; --paper:#fbf8f2; --sand:#e7dfd1;
+  --ink:#1c201c; --ink2:#484c45; --mute:#7c7e74; --wood:#b8793d;
+  --on:#f0ebdf; --on2:#b3b8a9;
+  --serif:"Instrument Serif", Georgia, "Times New Roman", serif;
+  --sans:"Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --pad:clamp(16px,5vw,56px); --max:1280px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;background:var(--cream);color:var(--ink);font:400 17px/1.6 var(--sans);-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+[data-lang][hidden]{display:none!important}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 var(--pad)}
+h1,h2,h3{font-family:var(--serif);font-weight:400;margin:0;letter-spacing:-.005em}
+h1 em,h2 em{font-style:italic}
+p{margin:0}
+.eyebrow{font:600 12px/1.3 var(--sans);letter-spacing:.18em;text-transform:uppercase}
+
+.notice{background:#0e1411;color:var(--on2);font:500 12.5px/1.4 var(--sans);text-align:center;padding:8px var(--pad)}
+.notice b{color:var(--on);font-weight:600}
+
+/* header */
+.top{background:var(--pine);color:var(--on)}
+.top .wrap{display:flex;align-items:center;gap:30px;height:72px;max-width:none}
+.mark{display:flex;align-items:baseline;gap:10px;text-decoration:none}
+.mark b{font:400 30px/1 var(--serif);letter-spacing:-.01em}
+.mark small{font:600 10.5px/1 var(--sans);letter-spacing:.22em;text-transform:uppercase;color:var(--on2)}
+.nav{display:flex;gap:28px;margin-left:auto}
+.nav a{font:500 15px/1 var(--sans);text-decoration:none;color:var(--on2)}
+.nav a:hover{color:var(--on)}
+.langs{display:flex;gap:2px}
+.langs button{font:600 12px/1 var(--sans);letter-spacing:.08em;border:0;background:none;color:var(--on2);padding:8px 7px;cursor:pointer}
+.langs button[aria-pressed="true"]{color:var(--on);text-decoration:underline;text-underline-offset:5px;text-decoration-thickness:1.5px}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;height:54px;padding:0 26px;border:0;border-radius:3px;background:var(--pine);color:var(--on);text-decoration:none;font:600 15.5px/1 var(--sans);cursor:pointer;transition:background .2s,color .2s}
+.btn:hover{background:#2c3b31}
+.btn.light{background:var(--on);color:var(--pine)}
+.btn.light:hover{background:#fff}
+.btn.line{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 1.5px currentColor}
+.btn.line:hover{background:var(--ink);color:var(--paper)}
+.btn.sm{height:42px;padding:0 18px;font-size:14.5px}
+.btn svg{width:18px;height:18px;flex:none}
+
+/* hero */
+.hero{background:var(--pine);color:var(--on);padding-bottom:120px}
+.hero .inner{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);min-height:min(calc(100svh - 150px),860px)}
+.htext{display:flex;flex-direction:column;justify-content:center;padding:48px clamp(32px,5vw,80px) 64px max(var(--pad),calc((100vw - var(--max))/2 + var(--pad)))}
+.htext .eyebrow{color:var(--on2)}
+.hero h1{font-size:clamp(3.3rem,5.6vw,6rem);line-height:.96;margin:22px 0 28px}
+.hero .lead{color:var(--on2);font-size:clamp(17px,1.3vw,19px);max-width:29em}
+.stars{display:inline-flex;gap:2px;color:#e5c07b}
+.stars svg{width:14px;height:14px}
+.hrate{display:flex;align-items:center;gap:10px;margin-top:34px;font:500 14.5px/1.3 var(--sans);color:var(--on2)}
+.hphoto{margin:0;position:relative;min-height:420px}
+.hphoto img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:22% 50%}
+
+/* booking card */
+.bookcard{position:relative;z-index:2;margin-top:-72px;background:var(--paper);color:var(--ink);padding:28px 30px 26px;box-shadow:0 30px 60px -30px rgba(18,25,21,.45);border-radius:4px}
+.bookcard h2{font-size:1.9rem;line-height:1;margin-bottom:18px}
+.brow{display:grid;grid-template-columns:repeat(2,minmax(0,1fr)) minmax(0,.8fr) auto;gap:14px;align-items:end}
+.f label,.f .lbl{display:block;font:600 12px/1.2 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--mute);margin-bottom:8px}
+input[type=date]{width:100%;height:54px;border:0;border-radius:3px;background:var(--cream);box-shadow:inset 0 0 0 1px #ddd4c4;padding:0 14px;font:500 16px var(--sans);color:var(--ink);-webkit-appearance:none;appearance:none;display:block;min-width:0}
+input[type=date]::-webkit-date-and-time-value{text-align:left}
+input[type=date]:focus{outline:none;box-shadow:inset 0 0 0 1.5px var(--ink)}
+.step{display:flex;align-items:center;height:54px;background:var(--cream);box-shadow:inset 0 0 0 1px #ddd4c4;border-radius:3px}
+.step button{width:48px;height:54px;border:0;background:none;font:500 22px/1 var(--sans);color:var(--ink);cursor:pointer}
+.step output{flex:1;text-align:center;font:600 17px/1 var(--sans)}
+.bextra{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:16px}
+.tog{display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 14px;border:0;border-radius:40px;background:var(--cream);box-shadow:inset 0 0 0 1px #ddd4c4;font:500 14.5px/1 var(--sans);color:var(--ink);cursor:pointer}
+.tog::before{content:"";width:14px;height:14px;border-radius:3px;box-shadow:inset 0 0 0 1.5px var(--mute);flex:none}
+.tog[aria-pressed="true"]{background:var(--pine);color:var(--on);box-shadow:none}
+.tog[aria-pressed="true"]::before{background:var(--on);box-shadow:none;-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Cpath d='M3 7.4l2.6 2.6L11 4.4' fill='none' stroke='black' stroke-width='2'/%3E%3C/svg%3E") center/100% no-repeat;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Cpath d='M3 7.4l2.6 2.6L11 4.4' fill='none' stroke='black' stroke-width='2'/%3E%3C/svg%3E") center/100% no-repeat}
+.bnote{margin-left:auto;font:500 14.5px/1.4 var(--sans);color:var(--ink2)}
+.bnote a{font-weight:600;text-decoration:none;white-space:nowrap}
+.bnote a:hover{text-decoration:underline}
+.nights{font:500 14px/1.3 var(--sans);color:var(--mute);margin-top:8px;min-height:18px}
+
+/* sections */
+.sec{padding:clamp(88px,11vw,150px) 0}
+.head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(24px,5vw,88px);align-items:end;margin-bottom:clamp(40px,5vw,72px)}
+.head h2,.sec h2{font-size:clamp(2.7rem,5.4vw,5rem);line-height:.98}
+.head p{color:var(--ink2);max-width:31em}
+
+/* house */
+.nums{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;margin-bottom:clamp(40px,5vw,64px)}
+.nums b{display:block;font:400 clamp(2.6rem,4.4vw,3.8rem)/1 var(--serif)}
+.nums span{display:block;font:500 14.5px/1.4 var(--sans);color:var(--ink2);margin-top:8px;max-width:14em}
+.rooms{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(8px,1.2vw,16px)}
+.rooms figure{margin:0}
+.rooms img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:3px;background:var(--sand)}
+.rooms figcaption{font:500 14.5px/1.3 var(--sans);color:var(--ink2);margin-top:12px}
+
+/* evening */
+.night{background:var(--night);color:var(--on)}
+.night .head p{color:var(--on2)}
+.pair{display:grid;gap:clamp(8px,1.2vw,16px);align-items:start}
+.pair figure{margin:0}
+.pair img{width:100%;object-fit:cover;border-radius:3px}
+.pair figcaption{font:500 14.5px/1.4 var(--sans);margin-top:12px}
+.night .pair{grid-template-columns:minmax(0,1fr) minmax(0,1.78fr)}
+.night .pair .a img{aspect-ratio:3/4}
+.night .pair .b img{aspect-ratio:4/3}
+.night figcaption{color:var(--on2)}
+.tip{display:flex;gap:14px;align-items:flex-start;margin-top:clamp(36px,4vw,56px);max-width:38em;font:500 16px/1.55 var(--sans);color:var(--on)}
+.tip svg{width:22px;height:22px;flex:none;margin-top:2px;color:#e5c07b}
+
+/* garden */
+.garden .pair{grid-template-columns:minmax(0,1fr) minmax(0,1.25fr)}
+.garden .pair .a img{aspect-ratio:6/5}
+.garden .pair .b img{aspect-ratio:3/2}
+.garden figcaption{color:var(--ink2)}
+
+/* reviews */
+.reviews{background:var(--paper)}
+.quotes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(32px,4vw,64px)}
+.quotes blockquote{margin:0;font:400 clamp(1.6rem,2.4vw,2.1rem)/1.15 var(--serif)}
+.quotes cite{display:block;margin-top:18px;font:600 13.5px/1.3 var(--sans);font-style:normal;color:var(--ink2)}
+.quotes cite span{font-weight:500;color:var(--mute)}
+.score{display:flex;align-items:center;gap:12px;margin-top:clamp(44px,5vw,72px);font:500 15px/1.4 var(--sans);color:var(--ink2)}
+.score .stars{color:var(--wood)}
+
+/* where */
+.dist{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;margin:clamp(8px,1vw,16px) 0 clamp(36px,4vw,56px)}
+.dist b{display:block;font:400 clamp(2.6rem,4.4vw,3.8rem)/1 var(--serif)}
+.dist span{display:block;font:500 14.5px/1.4 var(--sans);color:var(--ink2);margin-top:8px}
+.maps{display:flex;flex-wrap:wrap;gap:10px}
+.know{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px clamp(28px,4vw,64px);margin-top:clamp(72px,9vw,120px);padding-top:0}
+.know h3{font-size:1.75rem;line-height:1.05;margin-bottom:10px}
+.know p{font-size:16px;color:var(--ink2)}
+
+/* footer */
+footer{background:var(--pine);color:var(--on);padding:clamp(72px,9vw,120px) 0 calc(30px + env(safe-area-inset-bottom))}
+.fcta{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:28px}
+.fmark{font:400 clamp(4.4rem,15vw,13rem)/.86 var(--serif);letter-spacing:-.02em;margin:0}
+.fmark em{font-style:italic;color:var(--on2)}
+.fcols{display:flex;flex-wrap:wrap;gap:16px 44px;margin-top:clamp(40px,5vw,64px);font:500 15px/1.5 var(--sans);color:var(--on2)}
+.fcols a{color:var(--on);text-decoration:none}
+.fcols a:hover{text-decoration:underline}
+.fine{margin-top:36px;font:500 12.5px/1.5 var(--sans);color:#7f887b;max-width:60em}
+
+/* phone dock */
+.dock{position:fixed;left:0;right:0;bottom:0;z-index:30;display:none;gap:8px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:rgba(28,39,33,.96);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);transform:translateY(110%);transition:transform .3s ease}
+.dock.on{transform:none}
+.dock .btn{height:50px}
+.dock .btn.light{flex:1}
+.dock .btn.ghost{width:54px;padding:0;background:transparent;color:var(--on);box-shadow:inset 0 0 0 1.5px rgba(240,235,223,.5)}
+
+@media (max-width:1100px){
+  .brow{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .brow .go{grid-column:1/-1}
+  .brow .go .btn{width:100%}
+}
+@media (max-width:980px){ .nav{display:none} .langs{margin-left:auto} }
+@media (max-width:860px){
+  .top .wrap{height:64px;gap:16px}
+  .mark b{font-size:27px}
+  .top .btn{display:none}
+  .hero{padding-bottom:92px}
+  .hero .inner{grid-template-columns:1fr;min-height:0}
+  .hphoto{order:-1;min-height:0}
+  .hphoto img{position:static;aspect-ratio:4/5;height:auto}
+  .hphoto::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:34%;background:linear-gradient(180deg,rgba(28,39,33,0),var(--pine))}
+  .htext{padding:0 var(--pad);margin-top:-54px;position:relative;z-index:1}
+  .hero h1{margin:16px 0 20px}
+  .hrate{margin-top:24px}
+  .bookcard{margin-top:-64px;padding:22px 18px 20px}
+  .bookcard h2{font-size:1.7rem}
+  .brow{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px}
+  .brow .f.g{grid-column:1/-1}
+  .bnote{margin-left:0;width:100%;margin-top:4px}
+  .head{grid-template-columns:1fr;align-items:start}
+  .nums,.dist{grid-template-columns:1fr 1fr;gap:30px 18px}
+  .rooms{grid-template-columns:1fr 1fr}
+  .night .pair,.garden .pair{grid-template-columns:1fr;gap:22px}
+  .quotes{grid-template-columns:1fr;gap:40px}
+  .know{grid-template-columns:1fr;gap:30px}
+  .dock{display:flex}
+  footer{padding-bottom:calc(100px + env(safe-area-inset-bottom))}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<div class="notice"><b>Nikita:</b> <span data-lang="lv">Dizaina priekšlikums, nav Forest house oficiālā lapa.</span><span data-lang="en" hidden>Design proposal — not the official website of Forest house.</span></div>
+
+<header class="top">
+  <div class="wrap">
+    <a class="mark" href="#"><b>Forest house</b><small>Jūrmala</small></a>
+    <nav class="nav">
+      <a href="#maja"><span data-lang="lv">Māja</span><span data-lang="en" hidden>The house</span></a>
+      <a href="#vakara"><span data-lang="lv">Vakarā</span><span data-lang="en" hidden>Evenings</span></a>
+      <a href="#darzs"><span data-lang="lv">Dārzs</span><span data-lang="en" hidden>Garden</span></a>
+      <a href="#kur"><span data-lang="lv">Kā nokļūt</span><span data-lang="en" hidden>Location</span></a>
+    </nav>
+    <div class="langs" role="group" aria-label="Valoda / Language">
+      <button type="button" data-set="lv" aria-pressed="true">LV</button>
+      <button type="button" data-set="en" aria-pressed="false">EN</button>
+    </div>
+    <a class="btn light sm" href="#datumi"><span data-lang="lv">Pieprasīt datumus</span><span data-lang="en" hidden>Check dates</span></a>
+  </div>
+</header>
+
+<main>
+<div class="hero">
+  <div class="inner">
+    <div class="htext">
+      <p class="eyebrow"><span data-lang="lv">Priežu mežā, Jūrmalā</span><span data-lang="en" hidden>In a pine forest, Jūrmala</span></p>
+      <h1><span data-lang="lv">Priedes, kubls <em>un jūra 1,8&nbsp;km attālumā</em></span><span data-lang="en" hidden>Pines, a hot tub <em>and the sea 1.8&nbsp;km away</em></span></h1>
+      <p class="lead"><span data-lang="lv">Maza, silta koka māja ar kamīnu, terasi zem nojumes un savu karsto kubli dārzā. Klusai atpūtai divatā vai ar bērniem.</span><span data-lang="en" hidden>A small, warm wooden house with a fireplace, a covered terrace and its own hot tub in the garden. For a quiet break for two, or with the kids.</span></p>
+      <p class="hrate"><span class="stars" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.5l2.9 6 6.6.8-4.9 4.5 1.3 6.5L12 17l-5.9 3.3 1.3-6.5L2.5 9.3l6.6-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.5l2.9 6 6.6.8-4.9 4.5 1.3 6.5L12 17l-5.9 3.3 1.3-6.5L2.5 9.3l6.6-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.5l2.9 6 6.6.8-4.9 4.5 1.3 6.5L12 17l-5.9 3.3 1.3-6.5L2.5 9.3l6.6-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.5l2.9 6 6.6.8-4.9 4.5 1.3 6.5L12 17l-5.9 3.3 1.3-6.5L2.5 9.3l6.6-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.5l2.9 6 6.6.8-4.9 4.5 1.3 6.5L12 17l-5.9 3.3 1.3-6.5L2.5 9.3l6.6-.8z"/></svg></span><span data-lang="lv">4,9 Google kartēs</span><span data-lang="en" hidden>4.9 on Google Maps</span></p>
+    </div>
+    <figure class="hphoto">
+      <picture>
+        <source media="(max-width:860px)" srcset="img/hero-m.jpg">
+        <img src="img/hero-d.jpg" width="1600" height="1511" alt="Koka māja ar lielu nojumi, šūpuļkrēslu un koka karsto kubli, aiz tās ziedošs koks un priedes">
+      </picture>
+    </figure>
+  </div>
+</div>
+
+<div class="wrap">
+  <form class="bookcard" id="datumi" onsubmit="return false">
+    <h2><span data-lang="lv">Pārbaudīt datumus</span><span data-lang="en" hidden>Check your dates</span></h2>
+    <div class="brow">
+      <div class="f">
+        <label for="from"><span data-lang="lv">Ierašanās</span><span data-lang="en" hidden>Arrival</span></label>
+        <input type="date" id="from">
+      </div>
+      <div class="f">
+        <label for="to"><span data-lang="lv">Izbraukšana</span><span data-lang="en" hidden>Departure</span></label>
+        <input type="date" id="to">
+      </div>
+      <div class="f g">
+        <span class="lbl"><span data-lang="lv">Viesi</span><span data-lang="en" hidden>Guests</span></span>
+        <div class="step"><button type="button" id="minus" aria-label="−1">−</button><output id="guests">2</output><button type="button" id="plus" aria-label="+1">+</button></div>
+      </div>
+      <div class="go">
+        <a class="btn" id="send" href="sms:+37126511135"><span data-lang="lv">Sūtīt pieprasījumu</span><span data-lang="en" hidden>Send request</span></a>
+      </div>
+    </div>
+    <p class="nights" id="nights" aria-live="polite"></p>
+    <div class="bextra">
+      <button type="button" class="tog" data-k="tub" aria-pressed="false"><span data-lang="lv">Ar kubli</span><span data-lang="en" hidden>With the hot tub</span></button>
+      <button type="button" class="tog" data-k="dog" aria-pressed="false"><span data-lang="lv">Ņemsim līdzi suni</span><span data-lang="en" hidden>Bringing a dog</span></button>
+      <p class="bnote"><span data-lang="lv">Pieprasījums aiziet saimniekiem īsziņā. Vai zvaniet:</span><span data-lang="en" hidden>Your request goes to the hosts by text message. Or call:</span> <a href="tel:+37126511135">26 511 135</a></p>
+    </div>
+  </form>
+</div>
+
+<section class="sec" id="maja">
+  <div class="wrap">
+    <div class="head">
+      <h2><span data-lang="lv">Maza māja, <em>kurā ir silti</em></span><span data-lang="en" hidden>A small house <em>that stays warm</em></span></h2>
+      <p><span data-lang="lv">Guļamistaba, dzīvojamā istaba ar dīvānu, virtuve ar plīti un cepeškrāsni, vannas istaba ar dušu. Ziemā māju silda kamīns un grīdas apsilde, vasarā — kondicionieris.</span><span data-lang="en" hidden>A bedroom, a living room with a sofa, a kitchen with a hob and an oven, a bathroom with a shower. In winter the fireplace and the floor heating keep it warm; in summer there is air conditioning.</span></p>
+    </div>
+    <div class="nums">
+      <div><b>50 m²</b><span data-lang="lv">viss vienā stāvā</span><span data-lang="en" hidden>all on one floor</span></div>
+      <div><b>1 + 1</b><span data-lang="lv">guļamistaba un dzīvojamā istaba</span><span data-lang="en" hidden>bedroom and living room</span></div>
+      <div><b>14:00</b><span data-lang="lv">ierašanās, līdz 23:30</span><span data-lang="en" hidden>check-in, until 23:30</span></div>
+      <div><b>11:00</b><span data-lang="lv">izbraukšana</span><span data-lang="en" hidden>check-out</span></div>
+    </div>
+    <div class="rooms">
+      <figure><img src="img/living.jpg" width="800" height="999" loading="lazy" alt="Dzīvojamā istaba ar pelēku dīvānu, grīdas lampu un koka galdiņu"><figcaption><span data-lang="lv">Dzīvojamā istaba</span><span data-lang="en" hidden>Living room</span></figcaption></figure>
+      <figure><img src="img/kitchen.jpg" width="800" height="1000" loading="lazy" alt="Virtuve ar zaļiem skapīšiem, plīti, cepeškrāsni un ledusskapi"><figcaption><span data-lang="lv">Virtuve</span><span data-lang="en" hidden>Kitchen</span></figcaption></figure>
+      <figure><img src="img/bedroom.jpg" width="800" height="1000" loading="lazy" alt="Guļamistaba ar divguļamo gultu un baloniem uz tās"><figcaption><span data-lang="lv">Guļamistaba</span><span data-lang="en" hidden>Bedroom</span></figcaption></figure>
+      <figure><img src="img/bath.jpg" width="800" height="1000" loading="lazy" alt="Vannas istaba ar dušas kabīni un izgaismotu spoguli"><figcaption><span data-lang="lv">Vannas istaba</span><span data-lang="en" hidden>Bathroom</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="sec night" id="vakara">
+  <div class="wrap">
+    <div class="head">
+      <h2><span data-lang="lv">Kad <em>satumst</em></span><span data-lang="en" hidden>After <em>dark</em></span></h2>
+      <p><span data-lang="lv">Kubls dārzā sakarst, virs terases iedegas krāsainās lampiņas, iekšā sprakšķ kamīns. Ziemā viss ir sniegā, un priedes stāv apkārt kā siena.</span><span data-lang="en" hidden>The hot tub heats up in the garden, the coloured lights come on over the terrace, the fireplace crackles inside. In winter everything is under snow and the pines stand around like a wall.</span></p>
+    </div>
+    <div class="pair">
+      <figure class="a"><img src="img/night-tub.jpg" width="584" height="780" loading="lazy" alt="Kūpošs koka karstais kubls vakarā pie terases ar šūpuļkrēslu"><figcaption><span data-lang="lv">Kubls pie terases</span><span data-lang="en" hidden>The hot tub by the terrace</span></figcaption></figure>
+      <figure class="b"><img src="img/night-winter.jpg" width="1041" height="780" loading="lazy" alt="Māja ziemas naktī ar gaismiņām gar jumtu un izgaismotu egli sniegā"><figcaption><span data-lang="lv">Ziemas vakars</span><span data-lang="en" hidden>A winter evening</span></figcaption></figure>
+    </div>
+    <p class="tip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 3c2.5 3 4 5.2 4 8a4 4 0 0 1-8 0c0-1.3.5-2.4 1.2-3.4.3 1.2 1 2 1.8 2.2C10.6 7.2 11 5 12 3z"/><path d="M5 21h14"/></svg><span><span data-lang="lv">Par kubla sakurināšanu vienojieties ar saimniekiem jau piesakoties — atzīmējiet to pieprasījumā.</span><span data-lang="en" hidden>Ask the hosts to heat the hot tub when you book — just tick it in your request.</span></span></p>
+  </div>
+</section>
+
+<section class="sec garden" id="darzs">
+  <div class="wrap">
+    <div class="head">
+      <h2><span data-lang="lv">Dārzs <em>ar nojumi un šūpolēm</em></span><span data-lang="en" hidden>A garden <em>with a terrace and swings</em></span></h2>
+      <p><span data-lang="lv">Liela terase zem jumta ar galdu, grilu un āra sildītāju, šūpuļkrēsls, zālājs, pavasarī ziedoši koki un bērnu laukums ar šūpolēm un slidkalniņu. Auto var atstāt turpat — stāvvieta ir bez maksas.</span><span data-lang="en" hidden>A big covered terrace with a table, a grill and a patio heater, a hanging chair, a lawn, trees in blossom in spring and a playground with swings and a slide. Park right by the house — it is free.</span></p>
+    </div>
+    <div class="pair">
+      <figure class="a"><img src="img/terrace.jpg" width="1100" height="913" loading="lazy" alt="Terase zem koka nojumes ar galdu, puķu kasti un lampām"><figcaption><span data-lang="lv">Terase zem nojumes</span><span data-lang="en" hidden>The covered terrace</span></figcaption></figure>
+      <figure class="b"><img src="img/play.jpg" width="1100" height="733" loading="lazy" alt="Koka bērnu laukums ar šūpolēm, torni un slidkalniņu starp priedēm"><figcaption><span data-lang="lv">Bērnu laukums</span><span data-lang="en" hidden>The playground</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="sec reviews" id="atsauksmes">
+  <div class="wrap">
+    <div class="head">
+      <h2><span data-lang="lv">Ko raksta <em>viesi</em></span><span data-lang="en" hidden>What guests <em>say</em></span></h2>
+      <p><span data-lang="lv">No atsauksmēm Google kartēs.</span><span data-lang="en" hidden>From reviews on Google Maps, translated from Latvian.</span></p>
+    </div>
+    <div class="quotes">
+      <figure style="margin:0">
+        <blockquote><span data-lang="lv">„Jauka, mājīga vieta nesteidzīgai atpūtai.”</span><span data-lang="en" hidden>“A lovely, cosy place for an unhurried break.”</span></blockquote>
+        <cite>Ilze<span data-lang="lv">, Google</span><span data-lang="en" hidden>, Google, translated</span></cite>
+      </figure>
+      <figure style="margin:0">
+        <blockquote><span data-lang="lv">„Ļoti laba vieta lai pavadītu laiku. Saimnieki ir ļoti labi cilvēki un kopumā es esmu apmierināts par māju.”</span><span data-lang="en" hidden>“A very good place to spend time. The hosts are very good people, and overall I am happy with the house.”</span></blockquote>
+        <cite>Arnolds<span data-lang="lv">, Google</span><span data-lang="en" hidden>, Google, translated</span></cite>
+      </figure>
+      <figure style="margin:0">
+        <blockquote><span data-lang="lv">„Ļoti superīga vietiņa lai kopā ar ģimeni atpūstos 🙂”</span><span data-lang="en" hidden>“A really great little place to rest with the family 🙂”</span></blockquote>
+        <cite>Signe<span data-lang="lv">, Google</span><span data-lang="en" hidden>, Google, translated</span></cite>
+      </figure>
+    </div>
+    <p class="score"><span class="stars" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.5l2.9 6 6.6.8-4.9 4.5 1.3 6.5L12 17l-5.9 3.3 1.3-6.5L2.5 9.3l6.6-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.5l2.9 6 6.6.8-4.9 4.5 1.3 6.5L12 17l-5.9 3.3 1.3-6.5L2.5 9.3l6.6-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.5l2.9 6 6.6.8-4.9 4.5 1.3 6.5L12 17l-5.9 3.3 1.3-6.5L2.5 9.3l6.6-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.5l2.9 6 6.6.8-4.9 4.5 1.3 6.5L12 17l-5.9 3.3 1.3-6.5L2.5 9.3l6.6-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.5l2.9 6 6.6.8-4.9 4.5 1.3 6.5L12 17l-5.9 3.3 1.3-6.5L2.5 9.3l6.6-.8z"/></svg></span><span data-lang="lv">4,9 no 5 — 18 atsauksmes Google kartēs</span><span data-lang="en" hidden>4.9 out of 5 — 18 reviews on Google Maps</span></p>
+  </div>
+</section>
+
+<section class="sec" id="kur">
+  <div class="wrap">
+    <div class="head">
+      <h2>Rubeņu iela 49, <em>Jūrmala</em></h2>
+      <p><span data-lang="lv">Mežā, bet ne tālu no visa: līdz pludmalei var aiziet kājām, līdz Majoriem un Rīgai — ar auto.</span><span data-lang="en" hidden>In the forest, but not far from anything: walk to the beach, drive to Majori or Riga.</span></p>
+    </div>
+    <div class="dist">
+      <div><b><span data-lang="lv">1,8 km</span><span data-lang="en" hidden>1.8 km</span></b><span data-lang="lv">līdz jūrai</span><span data-lang="en" hidden>to the beach</span></div>
+      <div><b>10 km</b><span data-lang="lv">līdz Majoriem</span><span data-lang="en" hidden>to Majori</span></div>
+      <div><b>14 km</b><span data-lang="lv">līdz Līvu akvaparkam</span><span data-lang="en" hidden>to Līvu Aquapark</span></div>
+      <div><b>25 km</b><span data-lang="lv">līdz Rīgas lidostai</span><span data-lang="en" hidden>to Riga Airport</span></div>
+    </div>
+    <div class="maps">
+      <a class="btn line sm" href="https://maps.google.com/?cid=6556246385131030228" target="_blank" rel="noopener">Google Maps</a>
+      <a class="btn line sm" href="https://waze.com/ul?ll=56.9471094,23.6663218&amp;navigate=yes" target="_blank" rel="noopener">Waze</a>
+    </div>
+    <div class="know">
+      <div>
+        <h3><span data-lang="lv">Ierašanās</span><span data-lang="en" hidden>Arrival</span></h3>
+        <p><span data-lang="lv">No 14:00 līdz 23:30, izbraukšana līdz 11:00. Ierašanās laiku, lūdzu, pasakiet saimniekiem iepriekš.</span><span data-lang="en" hidden>From 14:00 to 23:30, check-out by 11:00. Please tell the hosts your arrival time in advance.</span></p>
+      </div>
+      <div>
+        <h3><span data-lang="lv">Mājdzīvnieki</span><span data-lang="en" hidden>Pets</span></h3>
+        <p><span data-lang="lv">Pēc vienošanās — atzīmējiet to pieprasījumā.</span><span data-lang="en" hidden>On request — mention it in your booking request.</span></p>
+      </div>
+      <div>
+        <h3><span data-lang="lv">Klusums</span><span data-lang="en" hidden>Quiet</span></h3>
+        <p><span data-lang="lv">Ballītes, vecpuišu un vecmeitu vakari nav atļauti. Rezervētājam jābūt vismaz 18 gadus vecam.</span><span data-lang="en" hidden>No parties, stag or hen nights. The person booking must be at least 18.</span></p>
+      </div>
+      <div>
+        <h3><span data-lang="lv">Mājā ir</span><span data-lang="en" hidden>In the house</span></h3>
+        <p><span data-lang="lv">Wi-Fi, veļas mašīna, kamīns, grīdas apsilde un kondicionieris.</span><span data-lang="en" hidden>Wi-Fi, a washing machine, a fireplace, floor heating and air conditioning.</span></p>
+      </div>
+      <div>
+        <h3><span data-lang="lv">Dārzā ir</span><span data-lang="en" hidden>In the garden</span></h3>
+        <p><span data-lang="lv">Karstais kubls, grils, terase ar nojumi, bērnu laukums un bezmaksas stāvvieta.</span><span data-lang="en" hidden>The hot tub, a grill, the covered terrace, a playground and free parking.</span></p>
+      </div>
+      <div>
+        <h3><span data-lang="lv">Saimnieki</span><span data-lang="en" hidden>Hosts</span></h3>
+        <p><span data-lang="lv">Tālrunis <a href="tel:+37126511135">26 511 135</a> — zvaniet vai rakstiet.</span><span data-lang="en" hidden>Phone <a href="tel:+37126511135">+371 26 511 135</a> — call or text.</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fcta">
+      <p class="fmark">Forest<br><em>house</em></p>
+      <a class="btn light" href="#datumi"><span data-lang="lv">Pieprasīt datumus</span><span data-lang="en" hidden>Check dates</span></a>
+    </div>
+    <div class="fcols">
+      <span>Rubeņu iela 49, Jūrmala</span>
+      <a href="tel:+37126511135">+371 26 511 135</a>
+      <a href="https://maps.google.com/?cid=6556246385131030228" target="_blank" rel="noopener">Google Maps</a>
+    </div>
+    <p class="fine"><span data-lang="lv">Fotogrāfijas — no Forest house Google profila; attālumi un noteikumi — no mājas apraksta rezervāciju vietnēs. Šo lapu kā dizaina priekšlikumu sagatavoja Nikita; tā nav mājas oficiālā lapa.</span><span data-lang="en" hidden>Photos from the Forest house Google profile; distances and house rules from its listing on booking sites. This page is a design proposal by Nikita — not the official website of the house.</span></p>
+  </div>
+</footer>
+
+<div class="dock" id="dock">
+  <a class="btn light" href="#datumi"><span data-lang="lv">Pārbaudīt datumus</span><span data-lang="en" hidden>Check dates</span></a>
+  <a class="btn ghost" href="tel:+37126511135" aria-label="Zvanīt 26 511 135"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></a>
+</div>
+
+<script>
+(function(){
+  var lang = 'lv';
+  try { var s = localStorage.getItem('fh-lang'); if (s === 'lv' || s === 'en') lang = s; } catch(e){}
+  var $ = function(id){ return document.getElementById(id); };
+  var st = {guests:2, tub:false, dog:false};
+
+  function iso(d){ return d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0'); }
+  function fmt(v){ var p = v.split('-'); return p[2] + '.' + p[1] + '.' + p[0]; }
+  var today = new Date(); $('from').min = iso(today);
+
+  function nights(){
+    var a = $('from').value, b = $('to').value;
+    if (!a || !b) return 0;
+    var n = Math.round((new Date(b) - new Date(a)) / 864e5);
+    return n > 0 ? n : 0;
+  }
+  function word(n){
+    if (lang === 'en') return n === 1 ? 'night' : 'nights';
+    return (n % 10 === 1 && n % 100 !== 11) ? 'nakts' : 'naktis';
+  }
+  function compose(){
+    var a = $('from').value, b = $('to').value, n = nights(), msg;
+    if (lang === 'lv'){
+      msg = 'Labdien! ';
+      if (a && b && n) msg += 'Vai Forest house būs brīva no ' + fmt(a) + ' līdz ' + fmt(b) + ' (' + n + ' ' + word(n) + ')?';
+      else if (a) msg += 'Vai Forest house būs brīva, sākot ar ' + fmt(a) + '?';
+      else msg += 'Gribētu uzzināt par brīvajiem datumiem Forest house.';
+      msg += ' Viesu skaits: ' + st.guests + '.';
+      if (st.tub) msg += ' Gribētu izmantot arī kubli.';
+      if (st.dog) msg += ' Ņemsim līdzi suni — vai drīkst?';
+    } else {
+      msg = 'Hello! ';
+      if (a && b && n) msg += 'Is Forest house free from ' + fmt(a) + ' to ' + fmt(b) + ' (' + n + ' ' + word(n) + ')?';
+      else if (a) msg += 'Is Forest house free from ' + fmt(a) + '?';
+      else msg += "I'd like to ask about free dates at Forest house.";
+      msg += ' Guests: ' + st.guests + '.';
+      if (st.tub) msg += " We'd like to use the hot tub too.";
+      if (st.dog) msg += " We'd bring our dog — is that OK?";
+    }
+    $('send').href = 'sms:+37126511135?&body=' + encodeURIComponent(msg);
+    $('nights').textContent = n ? (n + ' ' + word(n)) : '';
+  }
+
+  $('from').addEventListener('change', function(){
+    if ($('from').value){
+      var d = new Date($('from').value); d.setDate(d.getDate() + 1); $('to').min = iso(d);
+      if (!$('to').value || $('to').value <= $('from').value) $('to').value = iso(d);
+    }
+    compose();
+  });
+  $('to').addEventListener('change', compose);
+  $('minus').addEventListener('click', function(){ st.guests = Math.max(1, st.guests - 1); $('guests').textContent = st.guests; compose(); });
+  $('plus').addEventListener('click', function(){ st.guests = Math.min(12, st.guests + 1); $('guests').textContent = st.guests; compose(); });
+  document.querySelectorAll('.tog').forEach(function(b){
+    b.addEventListener('click', function(){
+      var k = b.getAttribute('data-k'); st[k] = !st[k];
+      b.setAttribute('aria-pressed', st[k] ? 'true' : 'false'); compose();
+    });
+  });
+
+  function setLang(l){
+    lang = l; document.documentElement.lang = l;
+    document.querySelectorAll('[data-lang]').forEach(function(e){ e.hidden = e.getAttribute('data-lang') !== l; });
+    document.querySelectorAll('.langs button').forEach(function(b){ b.setAttribute('aria-pressed', b.getAttribute('data-set') === l ? 'true' : 'false'); });
+    try { localStorage.setItem('fh-lang', l); } catch(e){}
+    compose();
+  }
+  document.querySelectorAll('.langs button').forEach(function(b){ b.addEventListener('click', function(){ setLang(b.getAttribute('data-set')); }); });
+
+  var dock = $('dock'), card = $('datumi'), foot = document.querySelector('footer'), ticking = false;
+  function dockUpdate(){
+    ticking = false;
+    var vh = window.innerHeight, r = card.getBoundingClientRect();
+    var cardInView = r.top < vh - 40 && r.bottom > 40, inFoot = foot.getBoundingClientRect().top < vh;
+    dock.classList.toggle('on', !cardInView && !inFoot);
+  }
+  window.addEventListener('scroll', function(){ if (!ticking){ ticking = true; requestAnimationFrame(dockUpdate); } }, {passive:true});
+  window.addEventListener('resize', dockUpdate);
+
+  setLang(lang); dockUpdate();
+})();
+</script>
+</body>
+</html>
